@@ -1,0 +1,52 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1e2d3b;
+  height: 100vh;
+}
+
+/* HEADER */
+header {
+  background-color: #2e3a46;
+  height: 70px;
+}
+header img {
+  padding: 8px;
+  width: 65px;
+  height: 65px;
+}
+select {
+  position: absolute;
+  top: 35px;
+  left: 92%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  text-align: center;
+  }
+
+/* MAIN */
+.card-container {
+  padding: 18px 8px 0px 8px;
+  background-color: #2e3a46;
+  height: 300px;
+  text-align: center;
+}
+.card-container img {
+  width: 85%;
+}
+.card-container h4 {
+  color: #fdfdfe;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 12px;
+}
+.card-container p {
+  color: #67777a;
+  font-size: 15px;
+}
+
