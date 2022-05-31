@@ -18,7 +18,6 @@ const app = new Vue({
         path = this.apiPath;
       }
       axios.get(path).then((res) => {
-        // console.log(res)
         this.albums = res.data;
         if (this.genere.length < 1) {
           this.albums.forEach((album) => {
